@@ -15,3 +15,9 @@ python manage.py migrate
 python manage.py runserver
 
 localhost:8000
+
+make migrations after changing models.py
+
+python manage.py makemigrations
+
+python manage.py migrate
