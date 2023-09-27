@@ -1,0 +1,17 @@
+pipenv shell
+
+pipenv install django
+
+django-admin startproject django_backend
+
+cd django_backend
+
+python manage.py startapp todo
+
+ls
+
+python manage.py migrate
+
+python manage.py runserver
+
+localhost:8000
