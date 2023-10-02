@@ -21,3 +21,16 @@ make migrations after changing models.py
 python manage.py makemigrations
 
 python manage.py migrate
+
+python manage.py createsuperuser
+
+pipenv install djangorestframework django-cors-headers
+
+to installed_apps add 'corsheaders', 'rest_framework'
+
+# Whitelisting React port
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000'
+)
+
+pipenv install djangorestframework django-cors-headers
